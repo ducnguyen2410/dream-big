@@ -317,3 +317,20 @@ header ul a {
 .slider .item:hover {
   filter: grayscale(0);
 }
+
+
+.motivation {
+  display: flex;
+  background-image: url("./dark-sky.jpg");
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.motivation span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
